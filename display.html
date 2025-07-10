@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 300px;
+            width:  300px;
+            color: rgb(83, 12, 12);
+            background-color: rgb(164, 237, 240);
+            border: 3px double black;
+            padding: 2px 3px;
+            margin: 5px;
+            box-sizing: border-box;
+            float: left;
+        }
+        #A{
+            display: inline-block;
+            color: rgb(22, 165, 165);
+            border-bottom: 4PX dotted black;
+
+        }
+        #B{ display: block;
+            color: rgb(170, 31, 77);
+            border: 2px dotted black;
+
+        }
+        #C{
+            display: inline;
+            color: rgb(170, 31, 77);
+             border-bottom: 2PX solid black;
+        }
+        .cb{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>DISPLAY </h1>
+    <h3>Understanding the CSS <span id="A"> DISPLAY</span> property</h3>
+    <div class="box">The display property in CSS is a fundamental tool for controlling the layout and behavior of HTML elements on a webpage. It determines how an element is rendered in the document flow, influencing its positioning, size, and interaction with other elements. <span id="B">Syntax</span>The syntax for the display property is straightforward:
+<h3>css</h3>
+selector {display: <span id="C"> value</span> ;}
+</div>
+    <div class="box">Here's a look at some of the most frequently used display values:
+        <ol>
+            <li>Block :
+                <ul>
+                    <li>This value makes the element behave like a block-level element.</li>
+                </ul>
+            </li>
+            <li>Inline :
+                <ul>
+                    <li>This value makes the element behave like an inline-level element.</li>
+                </ul>
+            </li>
+            <li>Inline-Block
+                <ul>
+                    <li>This value is a combination of inline and block.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <p class="cb">The display property is used to specify how an element is shown on a web page. Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline .</p>
+</body>
+</html>
