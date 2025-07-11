@@ -14,7 +14,7 @@
             padding: 2px 3px;
             margin: 5px;
             box-sizing: border-box;
-            float: left;
+            /* float: left; */
         }
         #A{
             display: inline-block;
@@ -35,16 +35,26 @@
         .cb{
             clear: both;
         }
+
+        .a2{
+            float: left;
+        }
+        .a{
+            margin: auto;
+        }
+        .a3{
+            float:right;
+        }
     </style>
 </head>
 <body>
-    <h1>DISPLAY </h1>
+    <h1 >DISPLAY </h1>
     <h3>Understanding the CSS <span id="A"> DISPLAY</span> property</h3>
-    <div class="box">The display property in CSS is a fundamental tool for controlling the layout and behavior of HTML elements on a webpage. It determines how an element is rendered in the document flow, influencing its positioning, size, and interaction with other elements. <span id="B">Syntax</span>The syntax for the display property is straightforward:
+    <div class="box a">The display property in CSS is a fundamental tool for controlling the layout and behavior of HTML elements on a webpage. It determines how an element is rendered in the document flow, influencing its positioning, size, and interaction with other elements. <span id="B">Syntax</span>The syntax for the display property is straightforward:
 <h3>css</h3>
 selector {display: <span id="C"> value</span> ;}
 </div>
-    <div class="box">Here's a look at some of the most frequently used display values:
+    <div class="box a2" >Here's a look at some of the most frequently used display values:
         <ol>
             <li>Block :
                 <ul>
@@ -62,6 +72,16 @@ selector {display: <span id="C"> value</span> ;}
                 </ul>
             </li>
         </ol>
+    </div>
+    <div class="box a3"><h2>Syntax</h2>
+     <ul>  
+         <li>/* precomposed values */</li>
+        <ul>
+           <li>display: block;</li>
+           <li>display: inline;</li>
+           <li>display: inline-block;</li>
+        </ul>
+    </ul>
     </div>
     <p class="cb">The display property is used to specify how an element is shown on a web page. Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline .</p>
 </body>
