@@ -1,0 +1,22 @@
+.box{
+    /* background-image */
+    background-image: url(Mickey_Mouse_Disney_1.webp);
+
+    /* background-repeat */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    /* background-position */
+    background-position: center;
+
+    
+    /* background-attachment */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+
+    /* background-size */
+    background-size:covers ;
+    
+}
