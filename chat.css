@@ -1,0 +1,26 @@
+
+
+.header {
+  background-color: #14b114;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 26px;
+  text-indent: 10px;
+}
+
+.chat-container {
+  padding: 20px;
+}
+
+.date-separator{
+  text-align: center;
+  color: #888;
+  margin: 20px 0;
+  text-decoration: underline dotted;
+}
+
+.right{
+   text-align: right; 
+}
+
